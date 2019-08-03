@@ -47,17 +47,14 @@ h4 {
 
 .trademark_txt {
     height: 20px;
-    width:300px;
-    display:flex;
+    width:250px;
     font-family: 'Bellefair', serif;
     color: white;
     letter-spacing: 2px;
     font-size: 13px;
     text-align: center;
     position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    top:10px;   
+    margin: auto;  
 }
 
 .header_button:hover {

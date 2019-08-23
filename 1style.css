@@ -16,10 +16,11 @@ p {
     text-align: justify;
     color: #484848;
     word-spacing: 0.1px;
+    margin-bottom: 60px;
 }    
 
-.articlepara {
-    margin-bottom:60px;
+.aboutpara {
+    margin-bottom: 0px;
 }
 
 h4 {

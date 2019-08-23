@@ -18,6 +18,10 @@ p {
     word-spacing: 0.1px;
 }    
 
+.articlepara {
+    margin-bottom:60px;
+}
+
 h4 {
     font-size: 45px;  
     line-height: 1.3em;

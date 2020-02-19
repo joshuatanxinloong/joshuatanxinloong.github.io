@@ -5,17 +5,18 @@
     height: 100%; 
     display: flex;
     flex-direction: column;
+    font-size: 24px;
 }
 
 p {
    /*font-family: 'Merriweather', serif;*/
     font-family: 'Bellefair', serif;
-    font-size: 24px;  
+    font-size: 1em;  
     line-height: 1.5em;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.02083em;
     text-align: justify;
     color: #484848;
-    word-spacing: 0.1px;
+    word-spacing: 0.00416em;
     margin-bottom: 60px;
 }    
 
@@ -24,22 +25,31 @@ p {
 }
 
 h4 {
-    font-size: 45px;  
+    font-size: 2em;  
     line-height: 1.3em;
     color: #484848;
-    letter-spacing: 1.5px;
+    letter-spacing: 0.0625em;
     font-weight: 500;
-    margin-bottom: 60px; 
+    margin-bottom: 0px; 
+}
+
+h5 {
+    font-size: 1.25em;  
+    line-height: 1.3em;
+    color: #484848;
+    letter-spacing: 0.0625em;
+    font-weight: 500;
+    margin-bottom: 0px; 
 }
 
 .first_letter {
-    font-size: 50px;
+    font-size: 2.08em;
 }
 
  .foreword_txt{
      font-family: 'Bellefair', serif;
-     font-size: 24px;
-     letter-spacing: 0.25px;   
+     font-size: 1em;
+     letter-spacing: 0.0104em;   
      line-height: 1.6em;
      color: #484848;
      margin-bottom: 0px;
@@ -57,8 +67,8 @@ h4 {
     width:250px;
     font-family: 'Bellefair', serif;
     color: white;
-    letter-spacing: 2px;
-    font-size: 13px;
+    letter-spacing: 0.083em;
+    font-size: 0.5416em;
     margin: auto;
     position: relative;
     top:10px; 
@@ -113,8 +123,8 @@ h4 {
 
 .logo_text {
     color: #181818;
-    letter-spacing: 4px;
-    font-size: 40px;
+    letter-spacing: 10px;
+    font-size: 1.666em;
 }
 
 .navigation_container {
@@ -137,7 +147,7 @@ h4 {
     display: block;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
+    font-size: 0.625em;
     text-decoration: none;
     color: #1E1E1E;
     height: 100%;
@@ -172,17 +182,17 @@ h4 {
 
 .heading_txt {
     color: #181818;
-    letter-spacing: 3px;
-    font-size: 60px; 
-    line-height: 60px;
+    letter-spacing: 0.05em;
+    font-size: 2.5em; 
+    line-height: 1em;
 }
 
 .figcaption {
     padding: 10px;
     font-family:'Bellefair', serif; 
     color: #030303;
-    text-align: center
-    
+    text-align: center;
+    font-size:0.7em
 }
 
 
@@ -195,15 +205,16 @@ h4 {
 }
 
 #mainpage_logo_text {
-    letter-spacing: 10px;
+    letter-spacing:10px;
 }
 
 #ocean_pic_actual {
     width:100%;    
+    display: block;
 }
 
 #ocean_pic {
-    height: 543px;
+    height: 100%;
     border-bottom:2px solid rgba(0,0,0,0.15);
 }
 
@@ -225,6 +236,7 @@ h4 {
    font-family: 'Bellefair', serif;
     
 }
+
 
 #main_page_directory  {
     width:100%;
@@ -279,11 +291,11 @@ h4 {
 
 #mountain_pic {
     width:100%;
+    display: block;
 }
 
 #mountain_pic_container {
-    height:659px;
-    border-bottom:2px solid rgba(0,0,0,0.15);
+    height:100%;
 }
 
 #contact_message_container {
@@ -443,6 +455,7 @@ h4 {
     font-size: 20px;
     color: #484848;
     letter-spacing: 0.7px;
+    overflow: hidden;
 }
 
 .postseparator {
@@ -580,4 +593,41 @@ h4 {
 #post2vid1 {
     display: block;
     margin: auto;
+}
+
+/** Post 3 CSS **/
+
+#post3pic1 {
+    display: block;
+    margin: auto;
+    width: 25vw;
+    margin-bottom: 7vh
+}
+
+#post3lastpic {
+    display: block;
+    margin: auto;
+    width: 10vw;
+}
+
+#hreflink1 {
+    text-decoration: none;
+    color:#545AA7;
+}
+
+#post3computerpic {
+    display: block;
+    width: 45vw;
+    margin: auto;
+}
+
+#post3vid1 {
+    display: block;
+    margin: auto;
+}
+
+#post3tankpic {
+    display: block;
+    width: 40vw;
+    margin: 0 auto;
 }
